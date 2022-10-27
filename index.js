@@ -21,12 +21,12 @@ app.get('/courses', (req, res) => {
   res.send(courses)
 })
 
-// app.get('/courses/:id', (req, res) => {
-//   const id = req.params.id;
-//   const selectedCategory = courses.find(c => c.id == id);
-//   res.send(selectedCategory);
-//   console.log(selectedCategory);
-// });
+app.get('/courses/:id', (req, res) => {
+  const id = req.params.id;
+  const selected_course = courses.find(c => c.id == id);
+  res.send(selected_course);
+  // console.log(selected_course);
+});
 
 app.get('/courses/category/:id', (req, res) => {
   const id = req.params.id;
