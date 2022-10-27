@@ -1,41 +1,38 @@
-{
-  "status": true,
-  "data": [
-    {
-      "id": 1,
-      "name": "ReactJS",
-      "logo": "https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
-      "total": 3
-    },
-    {
-      "id": 2,
-      "name": "JavaScript",
-      "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
-      "total": 5
-    },
-    {
-      "id": 3,
-      "name": "CSS",
-      "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
-      "total": 5
-    },
-    {
-      "id": 4,
-      "name": "Git & GitHub",
-      "logo": "https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png",
-      "total": 2
-    },
-    {
-      "id": 5,
-      "name": "HTML",
-      "logo": "https://www.seekpng.com/png/full/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png",
-      "total": 5
-    },
-    {
-      "id": 6,
-      "name": "NodeJS",
-      "logo": "https://usefulangle.com/img/thumb/nodejs.png",
-      "total": 2
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "ReactJS",
+    "logo": "https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
+    "total": 3
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+    "total": 5
+  },
+  {
+    "id": 3,
+    "name": "CSS",
+    "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+    "total": 5
+  },
+  {
+    "id": 4,
+    "name": "Git & GitHub",
+    "logo": "https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png",
+    "total": 2
+  },
+  {
+    "id": 5,
+    "name": "HTML",
+    "logo": "https://www.seekpng.com/png/full/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png",
+    "total": 5
+  },
+  {
+    "id": 6,
+    "name": "NodeJS",
+    "logo": "https://usefulangle.com/img/thumb/nodejs.png",
+    "total": 2
+  }
+]
