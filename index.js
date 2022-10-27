@@ -21,11 +21,21 @@ app.get('/courses', (req, res) => {
   res.send(courses)
 })
 
-app.get('/category/:id', (req, res) => {
+// app.get('/courses/:id', (req, res) => {
+//   const id = req.params.id;
+//   const selectedCategory = courses.find(c => c.id == id);
+//   res.send(selectedCategory);
+//   console.log(selectedCategory);
+// });
+
+app.get('/courses/category/:id', (req, res) => {
   const id = req.params.id;
-  const selectedCategory = category.find(c => c.id === id);
-  res.send(selectedCategory);
-});
+      const category_course = courses.filter(course => course.categoryID === id);
+      // const category_course = courses.filter(course => console.log(course.categoryID));
+      // console.log(id);
+      res.send(category_course);
+
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
