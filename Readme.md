@@ -10,7 +10,7 @@ Hosted in Vercel -> [Aungstrome EduHive Server](https://eduhive-server.vercel.ap
 
 Get category details by category id: https://eduhive-server.vercel.app/courses/category/${id}
 
-Example: https://eduhive-server.vercel.app/category/1
+Example: https://eduhive-server.vercel.app/courses/category/1
 
 ## Get all Courses: https://eduhive-server.vercel.app/courses
 
