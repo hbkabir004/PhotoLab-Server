@@ -6,7 +6,7 @@ React.js Web Application for an online educational platform with firebase authen
 
 Hosted in Vercel -> [Aungstrome EduHive Server](https://eduhive-server.vercel.app/)
 
-## Get all Course Categories: https://eduhive-server.vercel.app/courses/category
+## Get all Course Categories: https://eduhive-server.vercel.app/category
 
 Get category details by category id: https://eduhive-server.vercel.app/courses/category/${id}
 
